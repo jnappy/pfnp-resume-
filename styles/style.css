@@ -1,13 +1,44 @@
 body {
 	text-align: center; 
+	/*background-image: url("http://www.freecreatives.com/wp-content/uploads/2015/03/random-wallpapers-brick-wall-background-wallpaper-32459.jpg");*/
+	font-family: helvetica; 
 }
 
-#first {
+ol {
+	list-style-position: inside; 
+
+}
+
+img {
+	border-radius: 100px;
+	border: 1px solid black;
+}
+
+#teacher-style {
 	color: red;
 }
 
-.current {
-	border: 1px solid black;
-	width: 49%;
-	display: inline-block;
+.blue-stuff {
+	color: blue;
+}
+
+nav {
+	background-color: gray; 
+}
+
+.nav-items {
+	display: inline;
+	margin: 10px;
+}
+
+#about {
+    width: 49%;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#music {
+    width: 49%;
+    display: inline-block;
+    border: 1px solid black;
 }
